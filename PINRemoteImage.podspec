@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/pinterest/PINRemoteImage"
   s.license          = 'Apache 2.0'
   s.author           = { "Garrett Moon" => "garrett@pinterest.com" }
-  s.source           = { :git => "https://github.com/antondityativ/PINRemoteImage.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/antondityativ/PINRemoteImage.git", :tag => "3.0.4" }
   s.prefix_header_file = false
   # s.social_media_url = 'https://twitter.com/garrettmoon'
 
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   
   s.subspec "PINCache" do |pc|
     pc.dependency 'PINRemoteImage/Core'
-    pc.dependency 'PINCache', '~> 3.0.3'
+    pc.dependency 'PINCache', '~> 3.0.4'
     pc.ios.deployment_target = ios_deployment
     pc.tvos.deployment_target = tvos_deployment
     pc.osx.deployment_target = osx_deployment
